@@ -9,6 +9,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 
 
   <title>Frontend Mentor | Social proof section</title>
@@ -38,38 +41,67 @@
       </div>
 
       <div class='right-container'>
-        <div class='stars'>Rated 5 Stars in Reviews</div>
-        <div class='stars'>Rated 5 Stars in Report Guru</div>
-        <div class='stars'>Rated 5 Stars in BestTech</div>
+        <div class="card-stars">
+          <div class="card-body"><span class='stars'>⭐ ⭐ ⭐ ⭐ ⭐</span> <span>Rated 5 Stars in Reviews</span></div>
+        </div>
+        <div class="card-stars">
+          <div class="card-body"><span class='stars'>⭐ ⭐ ⭐ ⭐ ⭐ </span><span>Rated 5 Stars in Report Guru</span></div>
+        </div>
+        <div class="card-stars">
+          <div class="card-body"><span class='stars'>⭐ ⭐ ⭐ ⭐ ⭐</span>
+            <span>Rated 5 Stars in BestTech</span>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class='bottom-container'>
-      <div class='feedback-cards'>
-        Colton Smith
-        Verified Buyer
-        "We needed the same printed design as the one we had ordered a week prior.
-        Not only did they find the original order, but we also received it in time.
-        Excellent!"
-      </div>
-      <div class='feedback-cards'>
-        Irene Roberts
-        Verified Buyer
-        "Customer service is always excellent and very quick turn around. Completely
-        delighted with the simplicity of the purchase and the speed of delivery."
-      </div>
-      <div class='feedback-cards'>
-        Anne Wallace
-        Verified Buyer
-        "Put an order with this company and can only praise them for the very high
-        standard. Will definitely use them again and recommend them to everyone!"
+      <div class="card-deck">
+        <div class="card " id='card1'>
+          <div class="card-body text-center">
+            <p><span><img src="./images/image-irene.jpg" alt="Avatar" class="avatar"></span>
+            <h6 class='buyer-name'>Irene Roberts
+              </p>
+            </h6>
+            <strong class='title'>Verified Buyer</strong>
+            <p class='feedback'>"We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but we also received it in time.
+              Excellent!"</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card " id='card2'>
+          <div class="card-body text-center">
+            <p> <span><img src="./images/image-colton.jpg" alt="Avatar" class="avatar"> </span>
+            <h6 class='buyer-name'>Colton Smith
+              </p>
+            </h6>
+            <strong class='title'>Verified Buyer</strong>
+            <p class='feedback'>"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card" id='card3'>
+          <div class="card-body text-center">
+            <p><span> <img src="./images/image-anne.jpg" alt="Avatar" class="avatar"> </span>
+            <h6 class='buyer-name'>Anne Wallace</p>
+            </h6> <strong class='title'>Verified buyer</strong>
+            <p class='feedback'> "Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+
       </div>
     </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-        href="#">Your
-        Name Here</a>.
+        href="#">Kate Batrakova</a>.
     </div>
   </div>
 </body>

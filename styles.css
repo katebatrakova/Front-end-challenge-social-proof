@@ -7,13 +7,20 @@ body {
   padding: 10%;
   display: flex;
   flex-direction: column;
+  font-family: 'Spartan', sans-serif;
+
 }
 
 .main-container h1 {
-
   font-size: 3rem;
   color: hsl(300, 43%, 22%);
   font-weight: 700;
+  font-family: 'Spartan', sans-serif;
+
+}
+
+.main-container .left-container p {
+  font-family: 'Spartan', sans-serif;
 }
 
 .left-container {
@@ -24,12 +31,19 @@ body {
   width: 40%;
 }
 
+
+.card-stars {
+  margin-top: 5%;
+  background-color: #F7F3F6;
+  border-radius: 25px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+
+}
+
 .stars {
-  border: 1px black solid;
-  background-color: hsl(303, 10%, 53%);
-  width: 100%;
-  height: 10%;
-  border-radius: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .upper-container {
@@ -39,12 +53,44 @@ body {
 }
 
 .bottom-container {
-  display: flex;
-  flex-direction: row;
+
+  margin-bottom: 5%;
+
 }
 
-.feedback-cards {
-  /* width: 300px;
-  height: 300px;
-  background-color: violet; */
+#card1 {
+  margin-top: 5%;
+  background-color: hsl(300, 43%, 22%);
+}
+
+#card2 {
+  margin-top: 7%;
+  background-color: hsl(300, 43%, 22%);
+}
+
+#card3 {
+  margin-top: 10%;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.buyer-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.title {
+  color: hsl(333, 80%, 67%);
+  opacity: 0.5;
+}
+
+.feedback {
+  margin-top: 3%;
+  color: hsl(0, 0%, 100%);
+  ;
 }
